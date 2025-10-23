@@ -71,7 +71,7 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hi, I’m Aduragbemi Soladoye — a software developer with a genuine love
+          Hi, I’m Aduragbemi Soladoye - a software developer with a genuine love
           for technology and problem solving.
         </Paragraph>
 
@@ -87,7 +87,7 @@ export default function About() {
 
         <Paragraph className=" mt-4">
           Today, I build software solutions that aim to solve real problems for
-          real people. For me, it’s not just about writing code — it’s about
+          real people. For me, it’s not just about writing code, it’s about
           creating products that make life easier, more efficient, and sometimes
           even more enjoyable.
         </Paragraph>

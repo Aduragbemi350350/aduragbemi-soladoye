@@ -1,129 +1,61 @@
-const sidefolioAceternity = "/images/sidefolio-aceternity-2.png";
-const sidefolioAceternity2 = "/images/sidefolio-aceternity-2.png";
-const sidefolioAlgochurn = "/images/sidefolio-algochurn.png";
-const sidefolioAlgochurn2 = "/images/sidefolio-algochurn.png";
-const sidefolioMoonbeam = "/images/sidefolio-moonbeam.png";
-const sidefolioMoonbeam2 = "/images/sidefolio-moonbeam-2.png";
-const sidefolioTailwindMasterKit = "/images/sidefolio-tailwindmasterkit.png";
-const sidefolioTailwindMasterKit2 = "/images/sidefolio-tailwindmasterkit-2.png";
+const sidefolioPianistPortfolio = "/images/sidefolio-solomon-portfolio.png";
+const sidefolioPianistPortfolio2 = "/images/sidefolio-solomon-portfolio2.png";
+const sidefolioPianistPortfoli3 = "/images/sidefolio-solomon-portfolio3.png";
+const sidefolioNSFWImageDetector = "/images/sidefolio-NSFW-image-detector.png";
+const sidefolioNSFWImageDetector2 =
+  "/images/sidefolio-NSFW-image-detector2.png";
+const sidefolioNSFWImageDetector3 =
+  "/images/sidefolio-NSFW-image-detector3.png";
 
 export const products = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "https://pianist-portfolio.onrender.com/",
+    title: "Solomon Gbenga's Portfolio",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+      "A modern portfolio website built for a musicologist to display his creative works and connect with clients online.",
+    thumbnail: sidefolioPianistPortfolio,
+    images: [sidefolioPianistPortfolio2, sidefolioPianistPortfoli3],
+    stack: ["ejs", "Expressjs", "Nodejs", "Tailwindcss"],
+    slug: "solomon-portfolio",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          This project was developed to give Solomon Gbenga a professional
+          online platform where his musical talents can be easily explored.
+          Visitors can listen to his instrumental works, view completed
+          projects, and learn about his experience in vocal recording and
+          mixing.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Beyond presentation, the site helps him connect with potential clients
+          and collaborators through integrated contact and social links. It’s a
+          simple yet elegant representation of his artistry and professional
+          journey in music production.
         </p>{" "}
       </div>
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://huggingface.co/spaces/Aduragbemi350/NSFW_image_detector",
+    title: "NSFW Image Detector",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+      "An AI-powered model designed to detect NSFW images and videos directly on user devices.",
+    thumbnail: sidefolioNSFWImageDetector,
+    images: [sidefolioNSFWImageDetector2, sidefolioNSFWImageDetector3],
+    stack: ["Python", "Ultralytics", "Gradio"],
+    slug: "nsfw-image-detector",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          This project addresses the rising issue of exposure to adult content
+          online by using deep learning to identify explicit visuals with high
+          accuracy. It supports both image and video detection for broader
+          application in content moderation.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
-    description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
-      </div>
-    ),
-  },
-  {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
-    description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
-    content: (
-      <div>
-        <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
-        </p>
-        <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
+          Deployed on Hugging Face for public inference, the model emphasizes
+          privacy and efficiency through on-device processing. It aims to create
+          a safer and more mindful digital space for users across all platforms.
         </p>{" "}
       </div>
     ),
