@@ -14,34 +14,45 @@ type Props = {
   params: { slug: string };
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const slug = params.slug;
+// generateMetadata does not perform async work here, so keep it synchronous
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+
   const product = products.find((p) => p.slug === slug) as Product | undefined;
+
   if (product) {
     return {
       title: product.title,
       description: product.description,
     };
-  } else {
-    return {
-      title: "Project | Aduragbemi Soldoye",
-      description:
-        "Aduragbemi Soldoye is a fullstack developer.",
-    };
   }
+
+  return {
+    title: "Project | Aduragbemi Soladoye",
+    description: "Aduragbemi Soladoye is a fullstack developer.",
+  };
 }
 
-export default function SingleProjectPage({
+
+export default async function SingleProjectPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const slug = params.slug;
+  // ✅ Await params since Next.js passes it as a Promise
+  const { slug } = await params;
+
   const product = products.find((p) => p.slug === slug);
 
   if (!product) {
     redirect("/projects");
+    return null; // satisfies TypeScript
   }
+
   return (
     <Container>
       <SingleProduct product={product} />
