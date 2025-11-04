@@ -9,7 +9,7 @@ const sidefolioNSFWImageDetector3 =
 
 export const products = [
   {
-    href: "https://pianist-portfolio.onrender.com/",
+    href: "https://solomon-gbenga.onrender.com/",
     title: "Solomon Gbenga's Portfolio",
     description:
       "A modern portfolio website built for a musicologist to display his creative works and connect with clients online.",
